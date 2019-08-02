@@ -1,0 +1,64 @@
+# Site settings
+title: "Kaizhang Kang Homepage"
+description: "A resume of Kaizhang Kang."
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Kaizhang Kang"
+resume_title:                   "About me"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "cocoa_kang@zju.edu.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "555-7334"
+resume_contact_address:         "742 Evergreen Terrace, Springfield"
+
+resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
+display_header_contact_info:    "false"
+
+resume_header_intro: "<p> I entered Mixed Honors Class in Chu Kochen Honors College of Zhejiang University in 2014. I received B.Eng. degree from College of Computer Science & Technology, Zhejiang University and Honours Degree from Chu Kochen Honors College in 2018. Currently I am a master student in the State Key Lab of CAD&CG, Zhejiang University (supervised by Prof.Hongzhi Wu). My research interests include appearance acquisition/modeling and rendering.</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "I am still a student!"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      false
+resume_section_education:       false
+resume_section_projects:        false
+resume_section_skills:          false
+resume_section_recognition:     false
+resume_section_links:           false
+resume_section_associations:    false
+resume_section_publications:    true
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/cocoakang"
+  # resume_twitter_url:           "http://twitter.com/jglovier"
+  # resume_dribbble_url:          "https://dribbble.com/jag"
+  # resume_facebook_url:          "insert Facebook URL here"
+  # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  # resume_website_url:           "http://joelglovier.com"
+  # resume_medium_url:            "https://medium.com/@jglovier"
+resume_print_social_links:      false
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
