@@ -4,7 +4,7 @@
 # Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape
 - project_name: Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape
   teaser_img: images/multiplex_siga2019.jpg
-  authors: Kaizhang Kang, Cihui Xie, Chengan He, Mingqi Yi, Minyi Gu, Zimin Chen, Kun Zhou and Hongzhi Wu 
+  authors: <b>Kaizhang Kang</b>, Cihui Xie, Chengan He, Mingqi Yi, Minyi Gu, Zimin Chen, Kun Zhou and Hongzhi Wu 
   platform: Conditionally accepted to ACM SIGGRAPH Asia 2019.
   # project_page_url: ""
   # description: 
@@ -12,7 +12,7 @@
 # Efficient Reflectance Capture Using an Autoencoder
 - project_name: Efficient Reflectance Capture Using an Autoencoder
   teaser_img: images/ae_sig2018.jpg
-  authors: Kaizhang Kang*, Zimin Chen*, Jiaping Wang, Kun Zhou and Hongzhi Wu ( *:Joint first authors)
+  authors: <b>Kaizhang Kang</b>*, Zimin Chen*, Jiaping Wang, Kun Zhou and Hongzhi Wu ( *:Joint first authors)
   platform: ACM Trans. on Graphics (Proc. SIGGRAPH 2018), 37, 4 (Aug. 2018), 127.
   project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/autoenc/project.html
   # description:
