@@ -5,7 +5,7 @@
 - project_name: Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape
   teaser_img: images/multiplex_siga2019.jpg
   authors: <b>Kaizhang Kang</b>, Cihui Xie, <a href=http://cs.yale.edu/homes/che/>Chengan He</a>, Mingqi Yi, Minyi Gu, Zimin Chen, <a href=http://kunzhou.net/>Kun Zhou</a> and <a href=http://www.cad.zju.edu.cn/home/hwu/>Hongzhi Wu</a> 
-  platform: Conditionally accepted to ACM SIGGRAPH Asia 2019.
+  platform: ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
   project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/jointcap/project.html
   # description: 
 
