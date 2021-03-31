@@ -138,7 +138,14 @@
                               {% if publication.project_page_url %}
                               <a href="{{ publication.project_page_url }}">[Project Page]</a>
                               {% else %}
-                              <a>[Project Page]</a>
+                              <!-- <a>[Project Page]</a> -->
+                              {% endif %}
+                          </p>
+                          <p class="MsoNormal">
+                              {% if publication.pdf_link %}
+                              <a href="{{ publication.pdf_link }}">[pdf]</a>
+                              {% else %}
+                              <!-- <a>[pdf]</a> -->
                               {% endif %}
                           </p>
                       </td>

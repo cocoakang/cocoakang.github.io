@@ -2,6 +2,24 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape
+- project_name: Free-form Scanning of Non-planar Appearance with Neural Trace Photography
+  teaser_img: images/handhe.png
+  authors: Xiaohe Ma, <b>Kaizhang Kang</b>, Ruisheng Zhu, <a href=http://www.cad.zju.edu.cn/home/hwu/>Hongzhi Wu</a> and <a href=http://kunzhou.net/>Kun Zhou</a>  
+  platform: SIGGRAPH 2021
+  # ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
+  # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/jointcap/project.html
+  # description: 
+
+# Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape
+- project_name: Learning Efficient Photometric Feature Transform for Multi-view Stereo
+  teaser_img: images/dift.png
+  authors: <b>Kaizhang Kang</b>, Cihui Xie, Ruisheng Zhu, Xiaohe Ma, <a href=https://www.cs.sfu.ca/~pingtan/>Ping Tan</a>, <a href=http://www.cad.zju.edu.cn/home/hwu/>Hongzhi Wu</a> and <a href=http://kunzhou.net/>Kun Zhou</a>  
+  # platform: ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
+  pdf_link: https://arxiv.org/abs/2103.14794
+  # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/jointcap/project.html
+  # description: 
+
+# Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape
 - project_name: Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape
   teaser_img: images/multiplex_siga2019.jpg
   authors: <b>Kaizhang Kang</b>, Cihui Xie, <a href=http://cs.yale.edu/homes/che/>Chengan He</a>, Mingqi Yi, Minyi Gu, Zimin Chen, <a href=http://kunzhou.net/>Kun Zhou</a> and <a href=http://www.cad.zju.edu.cn/home/hwu/>Hongzhi Wu</a> 
