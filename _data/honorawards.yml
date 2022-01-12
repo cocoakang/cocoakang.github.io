@@ -2,6 +2,13 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
+- project: 2021 MSRA Fellowship
+  # role: Founder & Primary Developer
+  # duration: 2020
+  url: "https://www.microsoft.com/en-us/research/academic-program/fellowships-microsoft-research-asia/#!fellows"
+  # description: Make low cost data glove with Raspberry Pi.
+  
+# jazznotes.io
 - project: 2018 ACM SIGGRAPH Student Research Competition(Second place)
   # role: Founder & Primary Developer
   # duration: 2020
