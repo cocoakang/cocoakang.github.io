@@ -14,6 +14,9 @@
             <h2><a href="https://www.cocoakang.cn">Home</a></h2>
           </li>
           <li>
+            <h2><a href="#id_publications">Publications</a></h2>
+          </li>
+          <li>
             <h2><a href="{{ site.url }}/assets/cv_kaizhang_kang.pdf">CV</a></h2>
           </li>
           <!-- {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
@@ -85,7 +88,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Publications</h2>
+          <h2><a>Publications</a></h2>
         </header>
 
         {% for job in site.data.experience %}
@@ -139,7 +142,7 @@
         {% for project in site.data.honorawards %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <!-- <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" /> -->
-          <h2 class="resume-item-details">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h2>
+          <h2 class="resume-item-details">{% if project.url %}<a href="{{ project.url }}" style="text-decoration:none">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h2>
           <!-- <h5 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4> -->
           <!-- <p class="resume-item-copy">{{ project.description }}</p> -->
         </div>
@@ -153,7 +156,7 @@
       <!-- begin Publications -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Publications</h2>
+          <h2><a id="id_publications">Publications</a></h2>
         </header>
         <style> 
             p{ margin:0 auto} 
@@ -216,7 +219,7 @@
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h4 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          <h4 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url" >{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <!-- <h5 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4> -->
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
