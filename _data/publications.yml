@@ -2,6 +2,17 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape
+- project_name: Neural Reflectance Capture in the View-Illumination Domain
+  teaser_img: images/tvcg_teaser.jpg
+  authors: <b>Kaizhang Kang</b>, Minyi Gu, Cihui Xie, <a href=https://cseweb.ucsd.edu/~xuy008/>Xuanda Yang</a>, <a href=http://www.cad.zju.edu.cn/home/hwu/>Hongzhi Wu</a>  and <a href=http://kunzhou.net/>Kun Zhou</a>  
+  platform: To appear in IEEE TVCG
+  pdf_link: https://ieeexplore.ieee.org/document/9557800
+  # ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
+  
+  # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/scanner/project.html
+  # description: 
+
+# Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape
 - project_name: Free-form Scanning of Non-planar Appearance with Neural Trace Photography
   teaser_img: images/handhe.png
   authors: <a href=http://www.xiaohema98.com>Xiaohe Ma</a>, <b>Kaizhang Kang</b>, Ruisheng Zhu, <a href=http://www.cad.zju.edu.cn/home/hwu/>Hongzhi Wu</a> and <a href=http://kunzhou.net/>Kun Zhou</a>  
@@ -14,8 +25,8 @@
 - project_name: Learning Efficient Photometric Feature Transform for Multi-view Stereo
   teaser_img: images/dift.png
   authors: <b>Kaizhang Kang</b>, Cihui Xie, Ruisheng Zhu, <a href=http://www.xiaohema98.com>Xiaohe Ma</a>, <a href=https://www.cs.sfu.ca/~pingtan/>Ping Tan</a>, <a href=http://www.cad.zju.edu.cn/home/hwu/>Hongzhi Wu</a> and <a href=http://kunzhou.net/>Kun Zhou</a>  
-  platform: to appear in ICCV2021.
-  pdf_link: https://arxiv.org/abs/2103.14794
+  platform: ICCV2021.
+  project_page_url: https://svbrdf.github.io/publications/ptmvs/project.html
   # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/jointcap/project.html
   # description: 
 
