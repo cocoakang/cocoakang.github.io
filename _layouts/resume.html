@@ -1,7 +1,36 @@
 <!DOCTYPE html>
 <html>
-
+ 
   {% include head.html %}
+
+  <header class="navi-header">
+    <div class="container">
+      <nav class="main-nav">
+        <ul>
+          <li>
+            <!-- <a href="{{ www.baidu.com }}" {% if p.url == page.url %}class="active"{% endif %}>
+              {{ Home }}
+            </a> -->
+            <h2><a href="https://www.cocoakang.cn">Home</a></h2>
+          </li>
+          <li>
+            <h2><a href="{{ site.url }}/assets/cv_kaizhang_kang.pdf">CV</a></h2>
+          </li>
+          <!-- {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+          {% for p in navigation_pages %}
+            {% if p.navigation_weight %}
+              <li>
+                <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+                  {{ p.title }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %} -->
+        </ul>
+      </nav>
+      <!-- <h1><a href="/">Bakery<strong>Store</strong></a></h1> -->
+    </div>
+  </header>
 
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}" >
 
@@ -100,7 +129,25 @@
       {% endif %}
 
 
-      
+      {% if site.resume_section_honorawards %}
+      <!-- begin Honor & Awards -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Honors & Awards</h2>
+        </header>
+
+        {% for project in site.data.honorawards %}
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+          <!-- <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" /> -->
+          <h2 class="resume-item-details">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h2>
+          <!-- <h5 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4> -->
+          <!-- <p class="resume-item-copy">{{ project.description }}</p> -->
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Honor & Awards -->
+      {% endif %}
 
       {% if site.resume_section_publications %}
       <!-- begin Publications -->
@@ -158,26 +205,7 @@
       <!-- end Publications -->
       {% endif %}
 
-      {% if site.resume_section_honorawards %}
-      <!-- begin Honor & Awards -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Honor & Awards</h2>
-        </header>
-
-        {% for project in site.data.honorawards %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <!-- <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" /> -->
-          <h2 class="resume-item-details">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h2>
-          <!-- <h5 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4> -->
-          <!-- <p class="resume-item-copy">{{ project.description }}</p> -->
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Honor & Awards -->
-      {% endif %}
-
+      
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
@@ -319,10 +347,10 @@
         <!-- <p class="footer-line"></p> -->
         <p>
           <!-- <a>(•ิ_•ิ)</a>   -->
-          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=250&t=tt&d=RhU0agdUG-VANhwCZ8Vwa0FxxVS-euXSWOymTujvSNE&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script><!-- <a href="https://rosskang.github.io/ross_kang_gallery/">(ฅ•.•ฅ)</a>  -->
+          <!-- <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=250&t=tt&d=RhU0agdUG-VANhwCZ8Vwa0FxxVS-euXSWOymTujvSNE&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script> -->
         </p>
-        <p class="footer-line"> 
-          generous.kkz@gmail.com</p>
+        <!-- <p class="footer-line"> 
+          generous.kkz@gmail.com</p> -->
       </footer>
 
     </div>
