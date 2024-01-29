@@ -14,7 +14,7 @@ resume_name:                    "Kaizhang Kang"
 resume_title:                   "About me"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "cocoa_kang@zju.edu.com"
+resume_contact_email:           "kaizhangk@acm.org"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "555-7334"
@@ -49,7 +49,7 @@ resume_section_publications:    true
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/cocoakang"
-  resume_mail_url:              "generous.kkz@gmail.com"  
+  resume_mail_url:              "kaizhangk@acm.org"  
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
   # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
