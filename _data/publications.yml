@@ -38,7 +38,7 @@
 - project_name: Neural Reflectance Capture in the View-Illumination Domain
   teaser_img: images/tvcg_teaser.jpg
   authors: <b>Kaizhang Kang</b>, Minyi Gu, Cihui Xie, <a href=https://cseweb.ucsd.edu/~xuy008/>Xuanda Yang</a>, <a href=http://www.cad.zju.edu.cn/home/hwu/>Hongzhi Wu</a>  and <a href=http://kunzhou.net/>Kun Zhou</a>  
-  platform: To appear in IEEE TVCG
+  platform: IEEE TVCG, 29, 2(Feb. 2023), 1450-1462.
   pdf_link: https://ieeexplore.ieee.org/document/9557800
   # ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
   
