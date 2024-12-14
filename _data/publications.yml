@@ -1,6 +1,39 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+# Learning Photometric Feature Transform for Free-form Object Scan
+- project_name: Learning Photometric Feature Transform for Free-form Object Scan
+  teaser_img: images/geo_scanner.jpg
+  authors: <a href=https://sigfeng.com/>Xiang Feng</a>, <b>Kaizhang Kang</b>, Fan Pei, Huakeng Ding, Jinjiang You, <a href=https://www.cs.sfu.ca/~pingtan/>Ping Tan</a>, <a href=http://kunzhou.net/>Kun Zhou</a> and <a href=http://www.cad.zju.edu.cn/home/hwu/>Hongzhi Wu</a>
+  platform: To appear in IEEE TVCG.
+  pdf_link: https://svbrdf.github.io/publications/ipad/paper.pdf
+  # ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
+  
+  # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/scanner/project.html
+  # description: 
+
+# Latent Space Imaging
+- project_name: Latent Space Imaging
+  teaser_img: images/lsi.jpg
+  authors: <a href=https://vccimaging.org/People/souzama/>Matheus Souza</a>, <a href=https://vccimaging.org/People/ydzheng/>Yidan Zheng</a>, <b>Kaizhang Kang</b>, <a href=https://vccimaging.org/People/ynmishra/>Yogeshwar Nath Mishra</a>, <a href=https://vccimaging.org/People/fuq/>Qiang Fu</a>, <a href=https://vccimaging.org/People/heidriw/>Wolfgang Heidrich</a>
+  # platform: To appear in IEEE TVCG.
+  pdf_link: http://www.arxiv.org/pdf/2407.07052
+  # ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
+  
+  # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/scanner/project.html
+  # description: 
+
+# Differentiable Dynamic Visible-Light Tomography
+- project_name: Differentiable Dynamic Visible-Light Tomography
+  teaser_img: images/cyclone.jpg
+  authors: <b>Kaizhang Kang</b>, <a href=https://github.com/RupertPaoZ/>Zoubin Bi</a>, <a href=https://sigfeng.com/>Xiang Feng</a>, Yican Dong, <a href=http://kunzhou.net/>Kun Zhou</a> and <a href=http://www.cad.zju.edu.cn/home/hwu/>Hongzhi Wu</a>
+  platform: ACM SIGGRAPH Asia 2023 Conference Papers, Article 102, 1–12.
+  project_page_url: https://svbrdf.github.io/publications/dynamicCT/project.html
+  # ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
+  
+  # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/scanner/project.html
+  # description: 
+
 # Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape
 - project_name: Neural Reflectance Capture in the View-Illumination Domain
   teaser_img: images/tvcg_teaser.jpg
