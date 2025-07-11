@@ -2,7 +2,7 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # Learning Photometric Feature Transform for Free-form Object Scan
-- project_name: High-Speed Fourier Ptychographic Microscopy System for Live Microorganisms Imagin
+- project_name: High-Speed Fourier Ptychographic Microscopy System for Live Microorganisms Imaging
   teaser_img: images/cosi-fpm.jpg
   authors: <b>Kaizhang Kang</b>,<a href=https://mingsun-kaust.github.io/>Ming Sun</a>, <a href=https://www.iitj.ac.in/People/Profile/e848de48-43e2-4c22-98bf-3013549cf25f>Yogeshwar Mishra</a>, <a href=https://vccimaging.org/People/heidriw/>Wolfgang Heidrich<a>
   platform: Optica Imaging Congress 2025 (COSI)
