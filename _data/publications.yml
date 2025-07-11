@@ -2,6 +2,28 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # Learning Photometric Feature Transform for Free-form Object Scan
+- project_name: High-Speed Fourier Ptychographic Microscopy System for Live Microorganisms Imagin
+  teaser_img: images/cosi-fpm.jpg
+  authors: <b>Kaizhang Kang</b>,<a href=https://mingsun-kaust.github.io/>Ming Sun</a>, <a href=https://www.iitj.ac.in/People/Profile/e848de48-43e2-4c22-98bf-3013549cf25f>Yogeshwar Mishra</a>, <a href=https://vccimaging.org/People/heidriw/>Wolfgang Heidrich<a>
+  platform: Optica Imaging Congress 2025 (COSI)
+  # pdf_link: https://svbrdf.github.io/publications/ipad/paper.pdf
+  # ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
+  
+  # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/scanner/project.html
+  # description: 
+
+# Learning Photometric Feature Transform for Free-form Object Scan
+- project_name: Efficient Depth- and Spatially-Varying Image Simulation for Defocus Deblur
+  teaser_img: images/efficient_defocus_deblur.jpg
+  authors: <a href=https://singer-yang.github.io>Xinge Yang</a>, Chuong Nguyen, Wenbin Wang, <b>Kaizhang Kang</b>, <a href=https://vccimaging.org/People/heidriw/>Wolfgang Heidrich<a>, Ginger Li
+  platform: ICCV 2025 Workshop
+  # pdf_link: https://svbrdf.github.io/publications/ipad/paper.pdf
+  # ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
+  
+  # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/scanner/project.html
+  # description: 
+
+# Learning Photometric Feature Transform for Free-form Object Scan
 - project_name: Learning Photometric Feature Transform for Free-form Object Scan
   teaser_img: images/geo_scanner.jpg
   authors: <a href=https://sigfeng.com/>Xiang Feng</a>, <b>Kaizhang Kang</b>, Fan Pei, Huakeng Ding, Jinjiang You, <a href=https://www.cs.sfu.ca/~pingtan/>Ping Tan</a>, <a href=http://kunzhou.net/>Kun Zhou</a> and <a href=http://www.cad.zju.edu.cn/home/hwu/>Hongzhi Wu</a>
@@ -16,8 +38,8 @@
 - project_name: Latent Space Imaging
   teaser_img: images/lsi.jpg
   authors: <a href=https://vccimaging.org/People/souzama/>Matheus Souza</a>, <a href=https://vccimaging.org/People/ydzheng/>Yidan Zheng</a>, <b>Kaizhang Kang</b>, <a href=https://vccimaging.org/People/ynmishra/>Yogeshwar Nath Mishra</a>, <a href=https://vccimaging.org/People/fuq/>Qiang Fu</a>, <a href=https://vccimaging.org/People/heidriw/>Wolfgang Heidrich</a>
-  # platform: To appear in IEEE TVCG.
-  pdf_link: http://www.arxiv.org/pdf/2407.07052
+  platform: CVPR 2025
+  project_page_url: https://vccimaging.org/Publications/Souza2025LSI/
   # ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
   
   # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/scanner/project.html
