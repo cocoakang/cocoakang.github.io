@@ -1,74 +1,58 @@
-// Layout styles
-// ---------------------------------------/
-
-// Layout from Primer (https://github.com/primer/primer/blob/master/scss/_layout.scss)
-
-// Fixed-width, centered column for site content.
-.container {
-  width: $container-width;
-  margin-right: auto;
-  margin-left: auto;
-  @include clearfix;
+.section {
+  padding: 104px 0;
 }
 
-// Grid system
-//
-// Create rows with `.columns` to clear the floated columns and outdent the
-// padding on `.column`s with negative margin for alignment.
-
-.columns {
-  margin-right: -$grid-gutter;
-  margin-left: -$grid-gutter;
-  @include clearfix;
+.section-soft {
+  background: $paper;
+  border-top: 1px solid $line;
+  border-bottom: 1px solid $line;
 }
 
-// Base class for every column (requires a column width from below)
-.column {
-  float: left;
-  padding-right: $grid-gutter;
-  padding-left: $grid-gutter;
+.section-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 440px);
+  gap: 48px;
+  align-items: end;
+  margin-bottom: 46px;
 }
 
-// Column widths
-.one-third {
-  width: 33.333333%;
+.section-heading-compact {
+  grid-template-columns: 1fr;
 }
 
-.two-thirds {
-  width: 66.666667%;
+.section-heading h2,
+.split-sections h2 {
+  margin: 0;
+  font-family: $display-font;
+  font-size: clamp(2.05rem, 4vw, 3.25rem);
+  font-weight: 400;
+  letter-spacing: -.015em;
 }
 
-.one-fourth {
-  width: 25%;
+.section-heading > p {
+  margin: 0 0 6px;
+  color: $muted;
+  font-size: 1.03rem;
 }
 
-.one-half {
-  width: 50%;
+.section-label,
+.eyebrow {
+  margin-bottom: 14px;
+  color: $accent;
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
 }
 
-.three-fourths {
-  width: 75%;
-}
+@media (max-width: 760px) {
+  .section {
+    padding: 76px 0;
+  }
 
-.one-fifth {
-  width: 20%;
-}
-
-.four-fifths {
-  width: 80%;
-}
-
-// Single column hack
-.single-column {
-  padding-right: $grid-gutter;
-  padding-left: $grid-gutter;
-}
-
-// Equal width columns via table sorcery.
-.table-column {
-  display: table-cell;
-  width: 1%;
-  padding-right: $grid-gutter;
-  padding-left: $grid-gutter;
-  vertical-align: top;
+  .section-heading {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 32px;
+  }
 }

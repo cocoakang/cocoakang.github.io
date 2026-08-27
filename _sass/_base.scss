@@ -1,46 +1,77 @@
-// Base styles
-// ---------------------------------------/
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 html {
-  background: $white;
+  background: $paper;
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
 }
 
-body{
-  @include serif;
-  color: $text_color;
-  font-size: 16px;
-  line-height: 1.5;
+body {
+  margin: 0;
+  background: $surface;
+  color: $ink;
+  font-family: $body-font;
+  font-size: $body-font-size;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
 }
 
-.wrapper:before,
-.wrapper:after { content:""; display:table; }
-.wrapper:after { clear: both; }
-.wrapper {
-  max-width: 728px;
-  padding: 0 24px;
-  margin: 0 auto;
-  zoom: 1;
+main {
+  display: block;
+  overflow: hidden;
 }
 
-// clearfix (now called group,
-// via http://css-tricks.com/snippets/css/clear-fix/)
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both; }
-.group { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
-
-::-moz-selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
-    text-shadow: none;
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
 }
+
+h1,
+h2,
+h3 {
+  color: $ink;
+  line-height: 1.12;
+}
+
+a {
+  color: $accent;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+a:hover {
+  color: $accent-dark;
+}
+
+a:focus-visible {
+  border-radius: 3px;
+  outline: 3px solid rgba($accent, .25);
+  outline-offset: 4px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 ::selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
-    text-shadow: none;
+  background: $accent;
+  color: $white;
+}
+
+.site-container {
+  width: calc(100% - 48px);
+  max-width: $container-width;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 640px) {
+  .site-container {
+    width: calc(100% - 32px);
+  }
 }

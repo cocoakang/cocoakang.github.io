@@ -1,45 +1,52 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# Learning Photometric Feature Transform for Free-form Object Scan
-- project_name: High-Speed Fourier Ptychographic Microscopy System for Live Microorganisms Imaging
-  teaser_img: images/cosi-fpm.jpg
-  authors: <b>Kaizhang Kang</b>, <a href=https://mingsun-kaust.github.io/>Ming Sun</a>, <a href=https://www.iitj.ac.in/People/Profile/e848de48-43e2-4c22-98bf-3013549cf25f>Yogeshwar Mishra</a>, <a href=https://vccimaging.org/People/heidriw/>Wolfgang Heidrich<a>
-  platform: Presented at Optica Imaging Congress 2025 (COSI)<br>Extended journal version to appear at Optics Express
-  pdf_link: doc/fpm_cosi_preprint_flatten_optimized.pdf
-  # ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
-  
-  # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/scanner/project.html
-  # description: 
+# CoralSpec-30M
+- project_name: "CoralSpec-30M: A Large-Scale Coral Spectral Dataset Covering Multiple Species, Scales, and Health Conditions"
+  teaser_img: images/coralspec-30m.jpg
+  authors: <b>Kaizhang Kang</b>, <a href=https://vccimaging.org/People/heidriw/>Wolfgang Heidrich</a>
+  platform: Limnology and Oceanography Letters, 11(4), e70156, 2026.
+  project_page_url: https://doi.org/10.1002/lol2.70156
+  pdf_link: https://aslopubs.onlinelibrary.wiley.com/doi/pdf/10.1002/lol2.70156
 
-# Learning Photometric Feature Transform for Free-form Object Scan
-- project_name: Efficient Depth- and Spatially-Varying Image Simulation for Defocus Deblur
-  teaser_img: images/efficient_defocus_deblur.jpg
-  authors: <a href=https://singer-yang.github.io>Xinge Yang</a>, Chuong Nguyen, Wenbin Wang, <b>Kaizhang Kang</b>, <a href=https://vccimaging.org/People/heidriw/>Wolfgang Heidrich<a>, Ginger Li
-  platform: ICCV 2025 Workshop
-  # pdf_link: https://svbrdf.github.io/publications/ipad/paper.pdf
-  # ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
-  
-  # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/scanner/project.html
-  # description: 
+# Snapshot Polarimetric Display Inverse Rendering
+- project_name: Snapshot Polarimetric Display Inverse Rendering
+  teaser_img: images/snapshot-polarimetric.jpg
+  authors: <a href=https://michaelcsj.github.io/>Seokjun Choi</a>, <a href=https://yunseong0518.github.io/>Yunseong Moon</a>, <b>Kaizhang Kang</b>, <a href=https://sites.google.com/view/hoongyu-chung/home>Hoon-Gyu Chung</a>, <a href=https://divisonofficer.github.io/>Jin-Nyeong Kim</a>, <a href=https://giljoonam.github.io/>Giljoo Nam</a>, <a href=https://www.shbaek.com/>Seung-Hwan Baek</a>
+  platform: Accepted to ACM SIGGRAPH Asia 2026 (Journal).
+  project_page_url: https://arxiv.org/abs/2605.24915
+  pdf_link: https://arxiv.org/pdf/2605.24915
+
+# Low Latency Gaze Tracking via Latent Optical Sensing
+- project_name: Low Latency Gaze Tracking via Latent Optical Sensing
+  teaser_img: images/latent-gaze.jpg
+  authors: <a href=https://vccimaging.org/People/ydzheng/>Yidan Zheng</a>, <a href=https://vccimaging.org/People/souzama/>Matheus Souza</a>, <b>Kaizhang Kang</b>, <a href=https://vccimaging.org/People/fuq/>Qiang Fu</a>, <a href=https://vccimaging.org/People/amatah/bio>Hadi Amata</a>, <a href=https://vccimaging.org/People/heidriw/>Wolfgang Heidrich</a>
+  platform: Accepted to ACM SIGGRAPH Asia 2026 (Conference).
+  project_page_url: https://arxiv.org/abs/2605.17990
+  pdf_link: https://arxiv.org/pdf/2605.17990
+
+# LoBoFit
+- project_name: "LoBoFit: Flexible Garment Refitting via Local Bone Mapping Blending"
+  teaser_img: images/lobofit.jpg
+  authors: <a href=https://mengzephyr.com>Meng Zhang</a>, Yu Xin, Feiya Guo, <b>Kaizhang Kang</b>, <a href=https://sai.pku.edu.cn/znxyenglish/info/1362/2635.htm>Mengyu Chu</a>, <a href=https://csse.szu.edu.cn/staff/ruizhenhu/>Ruizhen Hu</a>
+  platform: ACM SIGGRAPH 2026 Conference Papers, Article 176, 1–11.
+  project_page_url: https://arxiv.org/abs/2605.07450
+  pdf_link: https://arxiv.org/pdf/2605.07450
+
+# High-throughput space-time Fourier ptychography
+- project_name: High-throughput Space-time Fourier Ptychography for Motile Microorganisms
+  teaser_img: images/stfp.jpg
+  authors: <a href=https://vccimaging.org/People/ming/>Ming Sun<sup>*</sup></a>, <b>Kaizhang Kang<sup>*</sup></b>, <a href=https://vccimaging.org/People/ynmishra/>Yogeshwar Nath Mishra</a>, <a href=https://singer-yang.github.io/>Xinge Yang</a>, <a href=https://vccimaging.org/People/amatah/bio>Hadi Amata</a>, <a href=https://vccimaging.org/People/heidriw/>Wolfgang Heidrich</a>
+  platform: Optics Express, 33(19), 39438–39451, 2025.<br><small>* Equal contribution.</small>
+  project_page_url: https://vccimaging.org/Publications/Ming2025STFP/
+  pdf_link: https://vccimaging.org/Publications/Ming2025STFP/Ming2025STFP.pdf
 
 # Learning Photometric Feature Transform for Free-form Object Scan
 - project_name: Learning Photometric Feature Transform for Free-form Object Scan
   teaser_img: images/geo_scanner.jpg
   authors: <a href=https://sigfeng.com/>Xiang Feng</a>, <b>Kaizhang Kang</b>, Fan Pei, Huakeng Ding, Jinjiang You, <a href=https://www.cs.sfu.ca/~pingtan/>Ping Tan</a>, <a href=http://kunzhou.net/>Kun Zhou</a> and <a href=http://www.cad.zju.edu.cn/home/hwu/>Hongzhi Wu</a>
-  platform: IEEE TVCG, 31, 29(Sep. 2025), 6398-6409
+  platform: IEEE TVCG, 31(9), 6398–6409, 2025.
   pdf_link: https://svbrdf.github.io/publications/ipad/paper.pdf
-  # ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
-  
-  # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/scanner/project.html
-  # description: 
-
-# Latent Space Imaging
-- project_name: Latent Space Imaging
-  teaser_img: images/lsi.jpg
-  authors: <a href=https://vccimaging.org/People/souzama/>Matheus Souza</a>, <a href=https://vccimaging.org/People/ydzheng/>Yidan Zheng</a>, <b>Kaizhang Kang</b>, <a href=https://vccimaging.org/People/ynmishra/>Yogeshwar Nath Mishra</a>, <a href=https://vccimaging.org/People/fuq/>Qiang Fu</a>, <a href=https://vccimaging.org/People/heidriw/>Wolfgang Heidrich</a>
-  platform: CVPR 2025
-  project_page_url: https://vccimaging.org/Publications/Souza2025LSI/
   # ACM Trans. Graph. (Proc. SIGGRAPH Asia 2019), 38, 6 (Nov. 2019), 165.
   
   # project_page_url: http://www.cad.zju.edu.cn/home/hwu/publications/scanner/project.html
